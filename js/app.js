@@ -45,11 +45,11 @@
     var totalRows = 100;
 
     // Fetch next set of rows (fake API)
-    function fetchRows(count) {
+    function fetchData(count) {
         var rows = [];
         return rows;
     }
 
     // Initialize the buffer
-    var tableData = fetchRows(10);
+    var tableData = fetchData(10);
 })();
